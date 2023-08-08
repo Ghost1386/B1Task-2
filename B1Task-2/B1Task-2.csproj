@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net7.0-windows</TargetFramework>
+        <RootNamespace>B1Task_2</RootNamespace>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+
+    <ItemGroup>
+      <PackageReference Include="ExcelDataReader" Version="3.7.0-develop00371" />
+      <PackageReference Include="IronXL.Excel" Version="2023.8.19" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.9" />
+      <PackageReference Include="Microsoft.Office.Interop.Excel" Version="15.0.4795.1001" />
+      <PackageReference Include="Syncfusion.XlsIO.Wpf" Version="22.2.7" />
+    </ItemGroup>
+
+
+
+
+    <ItemGroup>
+      <Folder Include="Enums\" />
+    </ItemGroup>
+
+</Project>
